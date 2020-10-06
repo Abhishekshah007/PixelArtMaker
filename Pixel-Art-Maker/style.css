@@ -1,0 +1,69 @@
+body {
+    text-align: center;
+    background-color:cornsilk;
+}
+
+h1 {
+    font-family: Monoton;
+    font-size: 70px;
+    margin: 0.2em;
+}
+
+h2 {
+    
+    font-size: xx-large;
+    font-weight: bolder;
+    font-style: normal;
+    font-family: sans-serif;
+    margin: 15px 0px 15px 0px;
+
+}
+
+#btn {
+    width: 70px;
+    border: groove;
+    color: black;
+    background-color: honeydew;
+    font-weight: 700;
+    font-family: system-ui;
+}
+
+h2:first-of-type {
+    /* margin-top: 0.5em; */
+    margin: 2rem;
+}
+
+label {
+    
+    font-size: 20px;
+    font-weight: 500;
+    font-family: sans-serif;
+
+}
+
+table,
+tr,
+td {
+    border: 1px solid black;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+tr {
+    height: 20px;
+}
+
+td {
+    width: 20px;
+}
+
+input[type=number] {
+    
+    border: double;
+    color: rgb(60, 66, 58);
+
+    width: 6em;
+}

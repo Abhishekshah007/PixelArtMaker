@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pixel Art Maker!</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Monoton">
+    
+    <link rel="stylesheet" href="/style.css">
+    <script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    
+    
+</head>
+<body>
+
+    <div class="container">
+        <h1 style="background: ivory;">
+           
+            <span style = "color: #137db2">P</span>
+            <span style="color: #3a3a3a">i</span>
+            <span style="color: #007001">x</span>
+            <span style = "color: #bf1c00">e</span>
+            <span style = "color: aqua">l</span> 
+            <span style = "color: #380700">&nbspA</span>
+            <span style ="color: #deb878">r</span>
+            <span style = "color: #3e7f08">t</span> 
+            <span style ="color: #d80039">&nbspM</span>
+            <span style = "color:  #db8a00">a</span>
+            <span style ="color: #3f382c">k</span>
+            <span style = "color: #6d251a">e</span>
+            <span style = "color: #0006b7">r</span>
+        </h1>
+
+    <h2>Choose Grid Size</h2>
+    <form id="sizePicker">
+        
+        <label>Grid Height:</label>
+        <input type="number" id="inputHeight" name="height" min="1" value="1">
+    <label>&nbsp;Grid Width:</label>
+        <input type="number" id="inputWeight" name="width" min="1" value="1">
+        <br>
+        <br>
+        <input id="btn" type = "submit">
+        <input id="btn" type = "reset">
+        
+    </form>
+
+    <h2>Pick A Color</h2>
+    <input type="color" id="colorPicker">
+
+    <h2>Design Canvas</h2>
+    <table id="pixelCanvas">
+     
+    </table>
+    </div>
+
+    <script src="/designs.js"></script>
+</body>
+</html>
